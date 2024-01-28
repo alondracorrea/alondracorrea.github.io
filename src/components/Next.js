@@ -1,0 +1,36 @@
+import React from "react";
+import "./Next.css";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+const Next = () => {
+  return (
+    <div className="next-container">
+      <div className="next-item">
+        <button id="full-btn">
+          <Link to="/projects/shelterHive">
+            Previous <FontAwesomeIcon icon={faArrowRight} id="full-arrow" />
+          </Link>
+        </button>
+      </div>
+      <div className="next-item">
+        <Link to="/">
+          <button id="full-btn">
+            <FontAwesomeIcon icon={faHouse} id="full-home" />
+          </button>
+        </Link>
+      </div>
+
+      <div className="next-item">
+        <button id="full-btn">
+          <Link to="/projects/shelterHive">
+            Next <FontAwesomeIcon icon={faArrowRight} id="full-arrow" />
+          </Link>
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Next;

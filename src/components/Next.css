@@ -1,0 +1,34 @@
+.next-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  background-color: white;
+
+  border-top: 1px solid #adb6c5;
+}
+
+.next-item {
+  color: #9aa6bd;
+  font-size: 13px;
+  width: auto;
+  padding: 10px 10px;
+}
+
+#full-btn {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: rgb(58, 58, 58);
+  font: white;
+}
+
+#full-arrow {
+  color: #9aa6bd;
+}
+
+#full-btn a {
+  text-decoration: none;
+  color: inherit;
+}
