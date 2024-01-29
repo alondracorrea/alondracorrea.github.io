@@ -1,21 +1,20 @@
-/* Disk.css */
 .disk-container {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
   background-color: white;
-  gap: 100px;
+  gap: 10px;
   height: auto;
-  min-height: 100px;
+  min-height: 80px;
 }
 
 .question {
   font-size: 30px;
-  position: absolute;
-  left: 3%;
+  width: 60px;
+  margin-left: -15px;
+  align-self: flex-start;
 }
 
 .question.hidden {
@@ -27,13 +26,11 @@
 }
 
 .floating-disc {
-  position: absolute;
-  top: 50%;
-  left: 0%;
   width: 50px;
   height: 50px;
   background-color: blue;
   border-radius: 50%;
+  /* hide in corner */
   transform: translateX(-50%);
   cursor: pointer;
   background: url("../assets/disk/cd-disk.png") no-repeat center/contain;
@@ -54,14 +51,12 @@
 }
 
 .prompt {
-  position: absolute;
-  top: 20%;
-  left: 10%;
   width: auto;
   height: auto;
   background-color: white;
   font-size: 12px;
   color: black;
+  margin-left: 30px;
 }
 
 #darkRed {

@@ -3,9 +3,16 @@ import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-regular-svg-icons";
 import coffeeGif from "../assets/coffee.gif";
+import resumePDF from "../assets/resume/testpdf.pdf";
 /* piskel gif */
 
 const About = () => {
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = resumePDF;
+    link.download = "resume.pdf";
+    link.click();
+  };
   return (
     <div>
       <div className="container">
@@ -39,7 +46,7 @@ const About = () => {
         </div>
       </div>
       <div className="link-container">
-        <div className="resume-link">
+        <div className="resume-link" onClick={downloadResume}>
           <FontAwesomeIcon icon={faFile} />
         </div>
         <a

@@ -4,14 +4,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-
+import { useState, useEffect } from "react";
 const Projects = () => {
-  function populateProjectLinks(projectName) {
+  const [isPromptNeeded, setPromptNeeded] = useState(false);
+  useEffect(() => {
+    if (!isPromptNeeded) {
+      setPromptNeeded(true);
+    }
+  }, [isPromptNeeded]);
+
+  const handleGitLinkClick = (projectName) => {
+    if (projectName === "gatzbys" && isPromptNeeded) {
+      alert("GitHub source code not available due to an NDA.");
+    }
+  };
+
+  const populateProjectLinks = (projectName) => {
     var projectLink = "/projects/" + projectName;
     if (projectName === "sowshare") {
       projectName = "sowandshare";
     }
+
     var githubLink = "https://github.com/alondracorrea/" + projectName;
+
     return (
       <div className="project-links">
         <button className="project-btn">
@@ -19,18 +34,25 @@ const Projects = () => {
             read more <FontAwesomeIcon icon={faArrowRight} />
           </Link>
         </button>
-        <a
-          className="git-link"
-          href={githubLink}
-          target="_blank"
-          rel="noreferrer"
-        ></a>
+        {projectName === "gatzbys" ? (
+          <a
+            className="git-link"
+            onClick={() => handleGitLinkClick(projectName)}
+          ></a>
+        ) : (
+          <a
+            className="git-link"
+            href={githubLink}
+            target="_blank"
+            rel="noreferrer"
+          ></a>
+        )}
         <div className="web-link">
           <FontAwesomeIcon icon={faLink} />
         </div>
       </div>
     );
-  }
+  };
   return (
     <div>
       <h1 id="project-header">PROJECTS</h1>

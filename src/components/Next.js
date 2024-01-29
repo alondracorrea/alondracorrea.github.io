@@ -4,12 +4,17 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-const Next = () => {
+
+const Next = ({ projectNames, currProject }) => {
+  const nextProject = (currProject + 1) % projectNames.length;
+  const prevProject =
+    (currProject - 1 + projectNames.length) % projectNames.length;
+
   return (
     <div className="next-container">
       <div className="next-item">
         <button id="full-btn">
-          <Link to="/projects/shelterHive">
+          <Link to={`/projects/${projectNames[prevProject]}`}>
             Previous <FontAwesomeIcon icon={faArrowRight} id="full-arrow" />
           </Link>
         </button>
@@ -21,10 +26,9 @@ const Next = () => {
           </button>
         </Link>
       </div>
-
       <div className="next-item">
         <button id="full-btn">
-          <Link to="/projects/shelterHive">
+          <Link to={`/projects/${projectNames[nextProject]}`}>
             Next <FontAwesomeIcon icon={faArrowRight} id="full-arrow" />
           </Link>
         </button>

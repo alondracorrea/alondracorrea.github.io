@@ -43,12 +43,16 @@
 
 .photo-container {
   background-color: #b2a487;
-  width: 36%;
-  height: 49.5%;
+  width: 28.7vw;
+  max-width: 550px;
+  height: 47vh;
   position: absolute;
-  top: 41%;
-  left: 28%;
+  top: 34vh;
+  left: 22vw;
   border: solid 5px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .photo-buttons {

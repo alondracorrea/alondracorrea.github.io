@@ -13,6 +13,10 @@ import sow6 from "../assets/sowShare/sowStory.png";
 const SowShare = () => {
   const images = [sow1, sow2, sow3, sow4, sow5, sow6];
 
+  //to navigate between projects
+  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
+  const currProject = projectNames.indexOf("sowshare");
+
   return (
     <div>
       <div className="detail-container">
@@ -63,7 +67,7 @@ const SowShare = () => {
           ))}
         </Carousel>
       </div>
-      <Next />
+      <Next projectNames={projectNames} currProject={currProject} />
     </div>
   );
 };
