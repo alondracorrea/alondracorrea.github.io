@@ -151,6 +151,7 @@
   border: none;
   background-color: black;
   color: #9aa6bd;
+  cursor: pointer;
 }
 
 #send-arrow {

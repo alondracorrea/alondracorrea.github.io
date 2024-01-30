@@ -3,14 +3,14 @@ import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-regular-svg-icons";
 import coffeeGif from "../assets/coffee.gif";
-import resumePDF from "../assets/resume/testpdf.pdf";
+import resumePDF from "../assets/resume/Resume.pdf";
 /* piskel gif */
 
 const About = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = resumePDF;
-    link.download = "resume.pdf";
+    link.download = "Resume.pdf";
     link.click();
   };
   return (

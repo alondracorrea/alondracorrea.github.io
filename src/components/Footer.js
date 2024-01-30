@@ -14,6 +14,7 @@ const Footer = () => {
 
       <div
         className="footer-item"
+        id="back-to-top"
         onClick={() => navigateToSection("navbar-section")}
       >
         Back to Top
