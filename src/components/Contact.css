@@ -98,6 +98,8 @@
 .name-email {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  gap: 15px;
   margin-bottom: 20px;
 }
 
