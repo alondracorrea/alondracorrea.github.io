@@ -40,7 +40,7 @@ const Gatzbys = () => {
             <li>- User Profiles & Authentication</li>
             <li>- Django Backend Integration</li>
             <li>- Admin and Client side versions</li>
-            <li>Psychoogy-based questionnaire</li>
+            <li>- Psychoogy-based questionnaire</li>
             <li>
               - Built-in Algorithm with Visual Results: includes exportable .csv
               file results

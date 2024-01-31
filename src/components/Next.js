@@ -1,6 +1,7 @@
 import React from "react";
 import "./Next.css";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -15,7 +16,8 @@ const Next = ({ projectNames, currProject }) => {
       <div className="next-item">
         <button id="full-btn">
           <Link to={`/projects/${projectNames[prevProject]}`}>
-            Previous <FontAwesomeIcon icon={faArrowRight} id="full-arrow" />
+            <FontAwesomeIcon icon={faArrowLeft} id="full-arrow" /> Previous
+            Project
           </Link>
         </button>
       </div>

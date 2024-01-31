@@ -28,16 +28,16 @@ const About = () => {
         <div className="second">
           <div className="about-me">
             <p>
-              While pursuing my bachelors of computer science, web development
-              became a rabbit hole I dove into head first.
+              While pursuing my Bachelor's in Computer Science, web development
+              captured my interest.
             </p>
             <p>
-              Since then I have had side-project experience developing web
-              applications, and created full-stack projects.
+              Since then, I have been developing web applications as side
+              projects to enhance my skills and expertise.
             </p>
             <p>
-              Outside of the digital realm, I channel my interests into hiking
-              and film photography. And exploring as many cafes as I can!
+              Beyond the digital realm, I channel my interests into hiking, film
+              photography, and exploring as many cafes as I can!
             </p>
           </div>
           <div className="coffeeDiv">

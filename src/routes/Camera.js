@@ -1,5 +1,6 @@
 import React from "react";
-import "./Photos.css";
+import "./Camera.css";
+import { useState } from "react";
 import Back from "../components/Back";
 import hikePhoto from "../assets/hike.jpg";
 import hikePhoto2 from "../assets/hike2.jpg";
@@ -16,10 +17,8 @@ import hikePhoto12 from "../assets/hike12.jpg";
 import hikePhoto13 from "../assets/hike13.jpg";
 import hikePhoto14 from "../assets/hike14.jpg";
 import hikePhoto15 from "../assets/hike15.jpg";
-
-import { useState } from "react";
-const Photos = () => {
-  const images = [
+const Camera = () => {
+  const hikePhotos = [
     hikePhoto,
     hikePhoto2,
     hikePhoto3,
@@ -37,53 +36,49 @@ const Photos = () => {
     hikePhoto15,
   ];
 
-  const [currentImage, setCurrentImage] = useState(0);
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
-  const changeImage = (direction) => {
+  const changePhoto = (direction) => {
     if (direction === "next") {
-      setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
+      setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % hikePhotos.length);
     } else {
-      setCurrentImage((prevIndex) => (prevIndex - 1) % images.length);
+      setCurrentPhotoIndex(
+        (prevIndex) => (prevIndex - 1 + hikePhotos.length) % hikePhotos.length
+      );
     }
   };
-
   return (
-    <div className=" camera-body">
-      <h1 id="camera-header">CAMERA</h1>
-      <p id="camera-p">
-        Click the buttons <p id="square"></p> to see my visits to the outdoors!
-      </p>
+    <div>
+      <div className="camera-desc">
+        <h1 id="camera-header">CAMERA</h1>
+        <p id="camera-p">
+          Click the buttons <span id="square"></span> to see my visits to the
+          outdoors!
+        </p>
+      </div>
       <div className="camera-container">
-        <div className="pixel-art">
+        <div className="camera-body">
           <div
-            className="photo-container"
+            className="camera-photos"
             style={{
-              backgroundImage: `url(${images[currentImage]})`,
-              backgroundRepeat: "repeat",
+              backgroundImage: `url(${hikePhotos[currentPhotoIndex]})`,
+              backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           ></div>
-          <div className="flex photo-buttons">
-            <div
-              className="back-photo"
-              onClick={() => changeImage("back")}
-            ></div>
-            <div
-              className="next-photo"
-              onClick={() => changeImage("next")}
-            ></div>
+          <div className="buttons-container">
+            <button
+              className="camera-btn"
+              onClick={() => changePhoto("prev")}
+            ></button>
+            <button
+              className="camera-btn"
+              onClick={() => changePhoto("next")}
+            ></button>
           </div>
         </div>
       </div>
-      {/*
-      <div className="back-container">
-        <button id="back-btn">
-          <Link to="/">
-            Back <FontAwesomeIcon icon={faArrowRight} id="back-arrow" />
-          </Link>
-        </button>
-      </div>*/}
       <div>
         <Back />
       </div>
@@ -91,4 +86,4 @@ const Photos = () => {
   );
 };
 
-export default Photos;
+export default Camera;

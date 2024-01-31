@@ -1,0 +1,77 @@
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+.camera-desc {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+#camera-header {
+  font-size: 2em;
+  color: rgb(65, 64, 64);
+  padding-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+#camera-p {
+  font-size: 1.2em;
+  color: rgb(65, 64, 64);
+  margin-left: 8%;
+}
+
+#square {
+  display: inline-flex;
+  background-color: rgb(155, 35, 55);
+  width: 20px;
+  height: 20px;
+}
+
+.camera-body {
+  background: url("../assets/cameraBackground2.png") no-repeat center/contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vmin;
+  height: 90vmin;
+  position: relative;
+}
+
+.camera-photos {
+  position: absolute;
+  top: 35%;
+  width: 60%;
+  height: 50%;
+  background-color: rgb(123, 72, 34);
+}
+
+.buttons-container {
+  background-color: #8e8e8e;
+  border: 5px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  width: 15%;
+}
+
+.camera-btn {
+  padding: 10px;
+  background-color: rgb(155, 35, 55);
+  border: none;
+  cursor: pointer;
+}
