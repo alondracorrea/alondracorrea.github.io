@@ -37,7 +37,7 @@
 }
 
 .camera-body {
-  background: url("../assets/cameraBackground2.png") no-repeat center/contain;
+  background: url("../assets/cameraBack.png") no-repeat center/contain;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,17 +56,17 @@
 
 .buttons-container {
   background-color: #8e8e8e;
-  border: 5px solid black;
+  border: 3px solid black;
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 80.5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
   padding: 20px;
-  width: 15%;
+  width: 12%;
 }
 
 .camera-btn {
