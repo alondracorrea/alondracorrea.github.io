@@ -21,7 +21,10 @@ const About = () => {
           <h1 id="my-name">Alondra Correa</h1>
           <p>
             A <span className="darkerText">software developer</span> with a
-            passion for <span className="darkerText">front-end</span>{" "}
+            passion for
+            <span className="darkerText">
+              <br></br>front-end
+            </span>{" "}
             development.
           </p>
         </div>
