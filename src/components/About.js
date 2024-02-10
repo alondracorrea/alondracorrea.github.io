@@ -49,9 +49,6 @@ const About = () => {
         </div>
       </div>
       <div className="link-container">
-        <div className="resume-link" onClick={downloadResume}>
-          <FontAwesomeIcon icon={faFile} />
-        </div>
         <a
           className="github-link"
           href="https://github.com/alondracorrea/"
