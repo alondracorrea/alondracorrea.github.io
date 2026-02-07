@@ -34,7 +34,7 @@ const Experience = () => {
             <h3 className="experience-company">Arizona State University</h3>
             <p className="experience-dates">2019 - 2023</p>
           </span>
-          <p className="experience-detail">B.S in Computer Science</p>
+          <p className="experience-detail">B.S. in Computer Science</p>
         </div> 
         <div className="experience-item">
           <h2 className="experience-title">Volunteer</h2>
