@@ -24,7 +24,7 @@
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  background: url("../assets/unnamed.jpg") no-repeat center/contain;
+  background: url("../assets/headshot_website.jpg") no-repeat center/contain;
   background-size: cover;
   margin: 0 auto;
 }
