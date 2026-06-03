@@ -1,0 +1,9 @@
+.stop-text {
+  font-weight: bold;
+  width: fit-content;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
