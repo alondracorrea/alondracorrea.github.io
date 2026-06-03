@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.59a8cdee.css",
-    "main.js": "/static/js/main.9634a939.js",
+    "main.css": "/static/css/main.6ac085c7.css",
+    "main.js": "/static/js/main.63a17f33.js",
     "static/js/845.e57006d5.chunk.js": "/static/js/845.e57006d5.chunk.js",
     "static/js/787.861fdc3f.chunk.js": "/static/js/787.861fdc3f.chunk.js",
     "static/media/zion5.jpg": "/static/media/zion5.f52f914aab41328879f9.jpg",
@@ -15,6 +15,7 @@
     "static/media/hike13.jpg": "/static/media/hike13.48ec076b0a23df0c36e1.jpg",
     "static/media/hike9.jpg": "/static/media/hike9.005be7a36e5a27aa95da.jpg",
     "static/media/zion1.jpg": "/static/media/zion1.7c4cdd280652d7300032.jpg",
+    "static/media/sethHome.png": "/static/media/sethHome.6e7e30dcd70a9e48b63e.png",
     "static/media/hike3.jpg": "/static/media/hike3.5c8c88a977bd07459c56.jpg",
     "static/media/hike4.jpg": "/static/media/hike4.a9f9a13d851354f824e9.jpg",
     "static/media/Tiger-Tracks_AdobeStock_331814277_preview.mp3": "/static/media/Tiger-Tracks_AdobeStock_331814277_preview.a7f24c8614a2d96f3a28.mp3",
@@ -25,8 +26,7 @@
     "static/media/hike14.jpg": "/static/media/hike14.cebe2ba7f9d962f42476.jpg",
     "static/media/zion_canyon.png": "/static/media/zion_canyon.5c34aa2fa218c481b894.png",
     "static/media/gatzbysHomepage.png": "/static/media/gatzbysHomepage.b57f5372253921fafc00.png",
-    "static/media/test.png": "/static/media/test.499d6997fa6395c195b0.png",
-    "static/media/gatz.png": "/static/media/gatz.4370cc9386010121ffab.png",
+    "static/media/gatzbysHome.png": "/static/media/gatzbysHome.c579ca9dd1436f2d0063.png",
     "static/media/recipes.jpg": "/static/media/recipes.e97e757ac29187efb72b.jpg",
     "static/media/hivepics.png": "/static/media/hivepics.b1f35190c52ac40a1c02.png",
     "static/media/gatsbysAlgo.png": "/static/media/gatsbysAlgo.b5a268468e0a180a8efb.png",
@@ -34,7 +34,6 @@
     "static/media/yourEvents.png": "/static/media/yourEvents.fe47b11beae44ddf47e3.png",
     "static/media/sowMap.png": "/static/media/sowMap.39a899672b7fca46d6c5.png",
     "static/media/hivepics2.png": "/static/media/hivepics2.73ba430e468a1a1a46b9.png",
-    "static/media/cookhome2.png": "/static/media/cookhome2.f54f2087cebe432929e7.png",
     "static/media/headshot_website.jpg": "/static/media/headshot_website.8b7bfda814bec667dcd3.jpg",
     "static/media/seatingChart.png": "/static/media/seatingChart.a52742712cf0c07632ff.png",
     "static/media/pics.png": "/static/media/pics.a7b4c6d9da18cbb10920.png",
@@ -42,26 +41,26 @@
     "static/media/fullrecipe.png": "/static/media/fullrecipe.307b05101ab9bf3975ef.png",
     "static/media/gatzbysEvents.png": "/static/media/gatzbysEvents.e3f6a412ac561c188e39.png",
     "static/media/sowStory.png": "/static/media/sowStory.98e2269e3bf373d7bc74.png",
+    "static/media/sowHomePage.jpg": "/static/media/sowHomePage.4c6fd35c0b415e665d8b.jpg",
     "static/media/sowHomepage2.png": "/static/media/sowHomepage2.48248b081165b27ef006.png",
     "static/media/homepage1.png": "/static/media/homepage1.440ebb9d48181ebc6e52.png",
+    "static/media/shelterHive.png": "/static/media/shelterHive.b758b49ade0644d43996.png",
     "static/media/sowLit.jpg": "/static/media/sowLit.aaaa127dc0567dab4596.jpg",
     "static/media/gatzbySignin.png": "/static/media/gatzbySignin.37a5b76d1213760aafec.png",
-    "static/media/sowHomePage.jpg": "/static/media/sowHomePage.29f1b31272c4edadf172.jpg",
     "static/media/cookHomepage.jpg": "/static/media/cookHomepage.ad417081b77f0eb20239.jpg",
     "static/media/form.png": "/static/media/form.b882fba9a3f9e70cad9b.png",
     "static/media/category.png": "/static/media/category.b5345bb5846b20c9e8e2.png",
-    "static/media/hivehome2.png": "/static/media/hivehome2.f175bd7c75aba6448770.png",
     "static/media/cameraBack.png": "/static/media/cameraBack.d9da197ee2cbcf9c4802.png",
     "static/media/linkedin.png": "/static/media/linkedin.15913b51f93fa3a632ac.png",
     "static/media/nodejs.png": "/static/media/nodejs.607c7913bb876ca9b08a.png",
     "index.html": "/index.html",
-    "main.59a8cdee.css.map": "/static/css/main.59a8cdee.css.map",
-    "main.9634a939.js.map": "/static/js/main.9634a939.js.map",
+    "main.6ac085c7.css.map": "/static/css/main.6ac085c7.css.map",
+    "main.63a17f33.js.map": "/static/js/main.63a17f33.js.map",
     "845.e57006d5.chunk.js.map": "/static/js/845.e57006d5.chunk.js.map",
     "787.861fdc3f.chunk.js.map": "/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59a8cdee.css",
-    "static/js/main.9634a939.js"
+    "static/css/main.6ac085c7.css",
+    "static/js/main.63a17f33.js"
   ]
 }
