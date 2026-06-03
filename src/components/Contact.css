@@ -120,32 +120,68 @@
   }
 }
 
+
 #name {
+  
   width: 100%;
-  padding: 5px 5px;
-  background-color: #9aa6bd;
+  padding: 10px 12px;
+  background: #f8fafc; 
+  border: 1px solid #cbd5e1; 
+  border-radius: 6px;
+  color: #111827;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
 }
 
 #email {
   width: 100%;
-  padding: 5px 5px;
-  background-color: #9aa6bd;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  color: #111827;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
 }
 
 #message {
   width: 100%;
-  padding-bottom: 60px;
-  background-color: #9aa6bd;
+  padding: 12px;
+  min-height: 120px; /* make message taller */
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  color: #111827;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
 }
 
-#message:focus {
-  background-color: white;
+
+#name:focus,
+#email:focus,
+#message:focus,
+.control:focus {
+  outline: none;
+  border-color: #2563eb; 
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.12);
+  background: #ffffff; 
 }
+
+
+.control {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
 .send-btn {
   display: flex;
   justify-content: flex-end;
 }
-
 #send {
   margin-top: 20px;
   width: 100px;
