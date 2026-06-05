@@ -2,7 +2,7 @@ import React from "react";
 import "./Camera.css";
 import { useState } from "react";
 import Back from "../components/Back";
-import hikePhoto from "../assets/hike.jpg";
+import hikePhoto from "../assets/colorado/hike-selfie-copy.png";
 import hikePhoto3 from "../assets/hike3.jpg";
 import hikePhoto4 from "../assets/hike4.jpg";
 import hikePhoto7 from "../assets/hike7.jpg";
