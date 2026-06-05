@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e323472.css",
-    "main.js": "/static/js/main.4caf7df2.js",
+    "main.css": "/static/css/main.323b131b.css",
+    "main.js": "/static/js/main.19d71afb.js",
     "static/js/845.e57006d5.chunk.js": "/static/js/845.e57006d5.chunk.js",
     "static/js/787.861fdc3f.chunk.js": "/static/js/787.861fdc3f.chunk.js",
+    "static/media/hike-selfie-copy.png": "/static/media/hike-selfie-copy.0e4694ef71ef8c13ca7a.png",
     "static/media/zion5.jpg": "/static/media/zion5.f52f914aab41328879f9.jpg",
     "static/media/zion2.jpg": "/static/media/zion2.15d88a456eb1265243aa.jpg",
     "static/media/hike7.jpg": "/static/media/hike7.77364e733490c9c73365.jpg",
@@ -22,7 +23,6 @@
     "static/media/about-seth.png": "/static/media/about-seth.063e4d77cbeebe898c00.png",
     "static/media/grandcanyon2.jpg": "/static/media/grandcanyon2.0de1d8cfc0b717dbd1f0.jpg",
     "static/media/hike15.jpg": "/static/media/hike15.bcfa15c09d859a7c7d08.jpg",
-    "static/media/hike.jpg": "/static/media/hike.b91a469467aa8523e018.jpg",
     "static/media/grand_canyon.png": "/static/media/grand_canyon.8bd407365e99c60bedc7.png",
     "static/media/hike14.jpg": "/static/media/hike14.cebe2ba7f9d962f42476.jpg",
     "static/media/zion_canyon.png": "/static/media/zion_canyon.5c34aa2fa218c481b894.png",
@@ -56,13 +56,13 @@
     "static/media/linkedin.png": "/static/media/linkedin.15913b51f93fa3a632ac.png",
     "static/media/nodejs.png": "/static/media/nodejs.607c7913bb876ca9b08a.png",
     "index.html": "/index.html",
-    "main.8e323472.css.map": "/static/css/main.8e323472.css.map",
-    "main.4caf7df2.js.map": "/static/js/main.4caf7df2.js.map",
+    "main.323b131b.css.map": "/static/css/main.323b131b.css.map",
+    "main.19d71afb.js.map": "/static/js/main.19d71afb.js.map",
     "845.e57006d5.chunk.js.map": "/static/js/845.e57006d5.chunk.js.map",
     "787.861fdc3f.chunk.js.map": "/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e323472.css",
-    "static/js/main.4caf7df2.js"
+    "static/css/main.323b131b.css",
+    "static/js/main.19d71afb.js"
   ]
 }
