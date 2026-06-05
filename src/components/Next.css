@@ -4,19 +4,19 @@
   justify-content: space-between;
   align-items: space-between;
   background-color: white;
-
   border-top: 1px solid #adb6c5;
 }
 
 .next-item {
   color: #9aa6bd;
-  font-size: 13px;
   width: auto;
   padding: 10px 10px;
 }
 
 #full-btn {
+  font-size: 12px;
   cursor: pointer;
+  font-weight: bold;
   width: 150px;
   height: 30px;
   border: none;

@@ -39,7 +39,7 @@
   padding: 16px;
 }
 
-/* project title + meta */
+
 #project-title {
   margin-top: 10px;
   font-size: 18px;
@@ -47,8 +47,8 @@
 }
 
 .project-item p {
-  color: #9aa6bd;
-  font-size: 14px;
+  color: #4a5568;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .language-item {
-  font-size: 14px;
+  font-size: 13px;
   background-color: rgb(239, 236, 236);
   width: max-content;
   padding: 5px 5px;
@@ -147,6 +147,8 @@
 }
 
 .link-style {
+  font-size: 12px;
+  font-weight: bold;
   text-decoration: none;
   color: inherit;
 }

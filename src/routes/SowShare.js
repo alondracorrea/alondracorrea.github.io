@@ -18,14 +18,15 @@ const SowShare = () => {
   const currProject = projectNames.indexOf("sowshare");
 
   return (
-    <div>
+    /* 🛠️ Change the plain <div> below to use your new layout class */
+    <div className="page-layout-wrapper">
       <div className="detail-container">
         <div className="project-overview">
           <h1 id="project-title-header">Sow&Share</h1>
-          <h3>- Full-Stack Website</h3>
-          <h2>Technologies Used</h2>
+          <h3>Full Stack Website</h3>
+          <h2>Languages Used</h2>
 
-          <p>React, JavaScript, Firebase, HTML, CSS</p>
+          <p>React | JavaScript | Firebase | HTML | CSS</p>
           <h2>Overview</h2>
           <p>
             Inspired by ShesACrowd, Sow&Share is a full-stack web application
@@ -40,10 +41,10 @@ const SowShare = () => {
 
           <h2>Features</h2>
           <ul>
-            <li>- User authentication</li>
-            <li>- Integration with Firebase backend services</li>
-            <li>- Dynamic content creation</li>
-            <li>- Friendly UI/UX design</li>
+            <li>• User authentication</li>
+            <li>• Integration with Firebase backend services</li>
+            <li>• Dynamic content creation</li>
+            <li>• Friendly UI/UX design</li>
           </ul>
 
           <h2>Challenges</h2>
@@ -73,7 +74,3 @@ const SowShare = () => {
 };
 
 export default SowShare;
-
-/*I wanted
-            a project to start my commitment to leveraging technology for
-            positive societal impact.*/

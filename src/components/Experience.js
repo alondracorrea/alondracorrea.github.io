@@ -27,7 +27,7 @@ const Experience = () => {
             • Designed and implemented a robust ticketing system using SQL, Microsoft Azure, and Python for managing tech support requests, organizing ticket notes for over 100 clients<br />
             • Crafted a user-friendly interface with Javascript, HTML, and CSS, with a grid-based layout, scrollable sections, and aesthetic enhancements to improve overall design and UX<br />
             • Optimized SQL queries for faster data retrieval and implemented PowerShell scripts to automate the storage of media files, systematically organizing them by individual ticket<br />
-            • Developed tools and widgets including a timer to track ticket progress, an email widget for direct communication, and a pie chart displaying ticket statuses and refined the Homepage Layout
+            • Developed tools and widgets including a timer to track ticket progress, an email widget for direct communication, and a pie chart displaying ticket statuses and refined the Homepage layout
           </p>
           </p>
 

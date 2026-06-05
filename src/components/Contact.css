@@ -189,6 +189,8 @@
   border: none;
   background-color: black;
   color: #9aa6bd;
+  font-weight: bold;
+  font-size: 12px;
   cursor: pointer;
 }
 

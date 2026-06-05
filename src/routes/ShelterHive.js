@@ -5,22 +5,21 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import hive1 from "../assets/shelterhive/homepage1.png";
 import hive2 from "../assets/shelterhive/pics.png";
-import hive3 from "../assets/shelterhive/hivepics.png";
-import hive4 from "../assets/shelterhive/hivepics2.png";
+import hive3 from "../assets/shelterhive/hivepics-copy.png";
+import hive4 from "../assets/shelterhive/hivepics2 -copy.png";
 
 const ShelterHive = () => {
   const images = [hive1, hive2, hive3, hive4];
   const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
   const currProject = projectNames.indexOf("shelterHive");
   return (
-    <div>
+    <div className="page-layout-wrapper">
       <div className="detail-container">
         <div className="project-overview">
           <h1 id="project-title-header">ShelterHive</h1>
-          <h3>-Full-Stack Website</h3>
-          <h2>Technologies Used</h2>
-          <p>Swift, Xcode</p>
-
+          <h3>Full Stack Website</h3>
+          <h2>Languages Used</h2>
+          <p>Swift | Xcode</p>
           <h2>Overview</h2>
           <p>
             The concept behind this app is to foster community engagement. It
@@ -31,11 +30,11 @@ const ShelterHive = () => {
 
           <h2>Features</h2>
           <ul>
-            <li>- User profile creation and authentication</li>
-            <li>- News retrieval and display using APIs</li>
-            <li>- Shelter search and information using APIs</li>
-            <li>- User can review the shelter</li>
-            <li>- User can write a volunteer opportunity for the shelter</li>
+            <li>• User profile creation and authentication</li>
+            <li>• News retrieval and display using APIs</li>
+            <li>• Shelter search and information using APIs</li>
+            <li>• User can review the shelter</li>
+            <li>• User can write a volunteer opportunity for the shelter</li>
           </ul>
 
           <h2>Challenges</h2>

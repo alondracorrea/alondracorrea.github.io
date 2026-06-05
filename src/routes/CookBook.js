@@ -14,13 +14,13 @@ const CookBook = () => {
   const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
   const currProject = projectNames.indexOf("cookbook");
   return (
-    <div>
+    <div className="page-layout-wrapper"> 
       <div className="detail-container">
         <div className="project-overview">
           <h1 id="project-title-header">CookBook</h1>
-          <h3>Full-Stack Website</h3>
-          <h2>Technologies Used</h2>
-          <p>React, JavaScript, Node.js, Express.js, SQL, HTML, CSS</p>
+          <h3>Full Stack Website</h3>
+          <h2>Languages Used</h2>
+          <p>React | JavaScript | Node.js | Express.js | SQL | HTML | CSS</p>
 
           <h2>Overview</h2>
           <p>
@@ -35,14 +35,14 @@ const CookBook = () => {
 
           <h2>Features</h2>
           <ul>
-            <li>- Integration with MySQL for backend services and storage</li>
-            <li>- Dynamic recipe creation and rendering</li>
+            <li>• Integration with MySQL for backend services and storage</li>
+            <li>• Dynamic recipe creation and rendering</li>
             <li>
-              - Users can browse recipes based on the categories: Breakfast,
+              • Users can browse recipes based on the categories: Breakfast,
               Lunch, Dinner, Dessert, and Appetizer
             </li>
             <li>
-              - Responsive Design: The application adapts to different screen
+              • Responsive Design: The application adapts to different screen
               sizes and follows the flexbox layout
             </li>
           </ul>

@@ -41,6 +41,7 @@ const Projects = () => {
           <a
             className="git-link"
             onClick={() => handleGitLinkClick(projectName)}
+            
           ></a>
         ) : (
           <a
@@ -119,9 +120,6 @@ const Projects = () => {
           <div className="language-container">
             <div className="language-item">React.js</div>
             <div className="language-item">JavaScript</div>
-            <div className="language-item">Node.js</div>
-            <div className="language-item">Express.js</div>
-            <div className="language-item">SQL</div>
             <div className="language-item">HTML</div>
             <div className="language-item">CSS</div>
           </div>

@@ -16,13 +16,13 @@ const Gatzbys = () => {
   const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
   const currProject = projectNames.indexOf("gatzbys");
   return (
-    <div>
+    <div className="page-layout-wrapper">
       <div className="detail-container">
         <div className="project-overview">
           <h1 id="project-title-header">Gatzby's</h1>
-          <h3>- Full-Stack Website</h3>
-          <h2>Technologies Used</h2>
-          <p>Django, Python, HTML, CSS</p>
+          <h3>Full Stack Website</h3>
+          <h2>Languages Used</h2>
+          <p>Django | Python | HTML | CSS</p>
 
           <h2>Overview</h2>
           <p>
@@ -37,12 +37,12 @@ const Gatzbys = () => {
 
           <h2>Features</h2>
           <ul>
-            <li>- User Profiles & Authentication</li>
-            <li>- Django Backend Integration</li>
-            <li>- Admin and Client side versions</li>
-            <li>- Psychoogy-based questionnaire</li>
+            <li>• User Profiles & Authentication</li>
+            <li>• Django Backend Integration</li>
+            <li>• Admin and Client side versions</li>
+            <li>• Psychology-based questionnaire</li>
             <li>
-              - Built-in Algorithm with Visual Results: includes exportable .csv
+              • Built-in Algorithm with Visual Results: includes exportable .csv
               file results
             </li>
           </ul>
