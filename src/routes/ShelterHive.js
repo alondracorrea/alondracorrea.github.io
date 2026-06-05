@@ -10,7 +10,7 @@ import hive4 from "../assets/shelterhive/hivepics2 -copy.png";
 
 const ShelterHive = () => {
   const images = [hive1, hive2, hive3, hive4];
-  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
+  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook", "art"];
   const currProject = projectNames.indexOf("shelterHive");
   return (
     <div className="page-layout-wrapper">

@@ -14,7 +14,7 @@ const SowShare = () => {
   const images = [sow1, sow2, sow3, sow4, sow5, sow6];
 
   //to navigate between projects
-  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
+  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook", "art"];
   const currProject = projectNames.indexOf("sowshare");
 
   return (
@@ -29,9 +29,9 @@ const SowShare = () => {
           <p>React | JavaScript | Firebase | HTML | CSS</p>
           <h2>Overview</h2>
           <p>
-            Inspired by ShesACrowd, Sow&Share is a full-stack web application
+            Inspired by ShesACrowd, Sow&Share is a web application
             designed to connect survivors of assault in a safe, anonymous space.
-            As a passionate advocate for women' rights and domestic abuse
+            As a passionate advocate for women's rights and domestic abuse
             awareness, I wanted to advance my web development skills by picking
             up a project that facilitates an open dialogue. The website also
             serves as a resource hub, offering information and statistics on
@@ -58,7 +58,7 @@ const SowShare = () => {
             this case, Leaflet.
           </p>
           <h2>Accomplishments</h2>
-          <p>Successfully developed a website that provides anonymity.</p>
+          <p>Successfully developed a website that lets users stay anonymous.</p>
         </div>
         <Carousel className="carousel-container" showThumbs={false}>
           {images.map((image, index) => (

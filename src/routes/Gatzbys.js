@@ -13,7 +13,7 @@ import gat7 from "../assets/gatzbys/seatingChart.png";
 
 const Gatzbys = () => {
   const images = [gat1, gat2, gat3, gat4, gat5, gat6, gat7];
-  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
+  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook", "art"];
   const currProject = projectNames.indexOf("gatzbys");
   return (
     <div className="page-layout-wrapper">

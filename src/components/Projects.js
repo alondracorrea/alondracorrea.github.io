@@ -24,8 +24,8 @@ const Projects = () => {
     if (projectName === "sowshare") {
       projectName = "sowandshare";
     }
-    if (projectName === "cookbook") {
-      return null;
+    if (projectName === "art") {
+      projectName = "seth-portfolio";
     }
 
     var githubLink = "https://github.com/alondracorrea/" + projectName;
@@ -41,7 +41,6 @@ const Projects = () => {
           <a
             className="git-link"
             onClick={() => handleGitLinkClick(projectName)}
-            
           ></a>
         ) : (
           <a
@@ -123,7 +122,7 @@ const Projects = () => {
             <div className="language-item">HTML</div>
             <div className="language-item">CSS</div>
           </div>
-          {populateProjectLinks("cookbook")}
+          {populateProjectLinks("art")}
         </div>
       </div>
     </div>

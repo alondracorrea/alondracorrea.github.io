@@ -11,7 +11,7 @@ import cook5 from "../assets/cookbook/form.png";
 
 const CookBook = () => {
   const images = [cook1, cook2, cook3, cook4, cook5];
-  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook"];
+  const projectNames = ["sowshare", "gatzbys", "shelterHive", "cookbook", "art"];
   const currProject = projectNames.indexOf("cookbook");
   return (
     <div className="page-layout-wrapper"> 

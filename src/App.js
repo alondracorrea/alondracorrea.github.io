@@ -5,6 +5,7 @@ import SowShare from "./routes/SowShare";
 import ShelterHive from "./routes/ShelterHive";
 import Gatzbys from "./routes/Gatzbys";
 import CookBook from "./routes/CookBook";
+import Art from "./routes/Art";
 import Disk from "./components/Disk";
 import Camera from "./routes/Camera";
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects/shelterHive" element={<ShelterHive />} />
         <Route path="/projects/gatzbys" element={<Gatzbys />} />
         <Route path="/projects/cookbook" element={<CookBook />} />
+        <Route path="/projects/art" element={<Art />} />
         <Route path="/disk" element={<Disk />} />
       </Routes>
     </Router>
