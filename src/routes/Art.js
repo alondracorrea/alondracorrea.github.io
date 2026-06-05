@@ -18,7 +18,7 @@ const Art = () => {
           <h1 id="project-title-header">Seth's Art Portfolio</h1>
           <h3>Full Stack Website</h3>
           <h2>Languages Used</h2> 
-          <p>React| JavaScript | HTML | CSS</p>
+          <p>React | JavaScript | HTML | CSS</p>
           <h2>Overview</h2>
           <p>
             Made this website for my friend to showcase his art. 
