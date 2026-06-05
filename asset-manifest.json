@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b99df283.css",
-    "main.js": "/static/js/main.32b12b07.js",
+    "main.css": "/static/css/main.8e323472.css",
+    "main.js": "/static/js/main.f9353254.js",
     "static/js/845.e57006d5.chunk.js": "/static/js/845.e57006d5.chunk.js",
     "static/js/787.861fdc3f.chunk.js": "/static/js/787.861fdc3f.chunk.js",
     "static/media/zion5.jpg": "/static/media/zion5.f52f914aab41328879f9.jpg",
     "static/media/zion2.jpg": "/static/media/zion2.15d88a456eb1265243aa.jpg",
     "static/media/hike7.jpg": "/static/media/hike7.77364e733490c9c73365.jpg",
     "static/media/zion4.jpg": "/static/media/zion4.f5e9477ef41ab52beb1f.jpg",
+    "static/media/sethHome.png": "/static/media/sethHome.6e7e30dcd70a9e48b63e.png",
     "static/media/zion3.jpg": "/static/media/zion3.dfef7f8b1f224cccde2f.jpg",
     "static/media/grandcanyon1.jpg": "/static/media/grandcanyon1.9ec3f3c62b6962029f8f.jpg",
     "static/media/hike12.jpg": "/static/media/hike12.17e87d651bb667a08702.jpg",
@@ -15,10 +16,10 @@
     "static/media/hike13.jpg": "/static/media/hike13.48ec076b0a23df0c36e1.jpg",
     "static/media/hike9.jpg": "/static/media/hike9.005be7a36e5a27aa95da.jpg",
     "static/media/zion1.jpg": "/static/media/zion1.7c4cdd280652d7300032.jpg",
-    "static/media/sethHome.png": "/static/media/sethHome.6e7e30dcd70a9e48b63e.png",
     "static/media/hike3.jpg": "/static/media/hike3.5c8c88a977bd07459c56.jpg",
     "static/media/hike4.jpg": "/static/media/hike4.a9f9a13d851354f824e9.jpg",
     "static/media/Tiger-Tracks_AdobeStock_331814277_preview.mp3": "/static/media/Tiger-Tracks_AdobeStock_331814277_preview.a7f24c8614a2d96f3a28.mp3",
+    "static/media/about-seth.png": "/static/media/about-seth.063e4d77cbeebe898c00.png",
     "static/media/grandcanyon2.jpg": "/static/media/grandcanyon2.0de1d8cfc0b717dbd1f0.jpg",
     "static/media/hike15.jpg": "/static/media/hike15.bcfa15c09d859a7c7d08.jpg",
     "static/media/hike.jpg": "/static/media/hike.b91a469467aa8523e018.jpg",
@@ -26,6 +27,7 @@
     "static/media/hike14.jpg": "/static/media/hike14.cebe2ba7f9d962f42476.jpg",
     "static/media/zion_canyon.png": "/static/media/zion_canyon.5c34aa2fa218c481b894.png",
     "static/media/gatzbysHomepage.png": "/static/media/gatzbysHomepage.b57f5372253921fafc00.png",
+    "static/media/inquiry-seth.png": "/static/media/inquiry-seth.5caa60abd280b787154c.png",
     "static/media/gatzbysHome.png": "/static/media/gatzbysHome.c579ca9dd1436f2d0063.png",
     "static/media/hivepics-copy.png": "/static/media/hivepics-copy.d80eaab8750ea1ad4dce.png",
     "static/media/recipes.jpg": "/static/media/recipes.e97e757ac29187efb72b.jpg",
@@ -54,13 +56,13 @@
     "static/media/linkedin.png": "/static/media/linkedin.15913b51f93fa3a632ac.png",
     "static/media/nodejs.png": "/static/media/nodejs.607c7913bb876ca9b08a.png",
     "index.html": "/index.html",
-    "main.b99df283.css.map": "/static/css/main.b99df283.css.map",
-    "main.32b12b07.js.map": "/static/js/main.32b12b07.js.map",
+    "main.8e323472.css.map": "/static/css/main.8e323472.css.map",
+    "main.f9353254.js.map": "/static/js/main.f9353254.js.map",
     "845.e57006d5.chunk.js.map": "/static/js/845.e57006d5.chunk.js.map",
     "787.861fdc3f.chunk.js.map": "/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99df283.css",
-    "static/js/main.32b12b07.js"
+    "static/css/main.8e323472.css",
+    "static/js/main.f9353254.js"
   ]
 }
